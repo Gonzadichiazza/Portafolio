@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Css/reset.css">
-    <link rel="stylesheet" href="/Css/style.css">
     <link rel="stylesheet" href="/Css/flex.css">
+    <link rel="stylesheet" href="/Css/estilo.css">
+
+    <!--<link rel="stylesheet" href="/Css/style.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fuente del Proyecto Raleway -->
@@ -16,9 +18,11 @@
 
 <body>
     <!-- Menú -->
-    <header class="cabecera">
-        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
-        <h1 class="cabecera__titulo">Alura Latam</h1>
+    <header class="cabecera contenedor">
+        <div class="cabecera__presenacion">
+            <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+            <h1 class="cabecera__titulo">Gonzalo Dichiazza</h1>
+        </div>
         <nav class="navegacion">
             <ul class="navegacion__lista">
                 <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
@@ -26,17 +30,17 @@
                 <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
                 <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
                 <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
-                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contactame</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Sección de Presentación -->
-    <section class="presentacion">
+    <section class="presentacion contenedor">
         <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
         <div class="presentacion__contenedor">
-            <h2 class="presentacion__titulo">Hola, mi nombre es Alura Latam y construyo páginas web</h2>
-            <p class="presentacion__subtitulo">Soy formada en... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <h2 class="presentacion__titulo">Hola, mi nombre es Gonzalo Dichiazza y construyo páginas web</h2>
+            <p class="presentacion__subtitulo">Soy estudiante de la tecnicatura en inteligencia artificial y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
             <ul class="redes">
                 <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
                 <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
@@ -47,7 +51,7 @@
     </section>
 
     <!-- Sección sobre mí -->
-    <section class="sobre-mi" id="sobre-mi">
+    <section class="sobre-mi contenedor" id="sobre-mi">
         <h2 class="sobre-mi__titulo">Sobre mí</h2>
         <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
         <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
