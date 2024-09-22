@@ -13,6 +13,9 @@ body {
     line-height: 1.6;
 }
 
+.presentacion__foto{
+    border-radius: 30rem;
+}
 .cabecera__presenacion h1{
     font-size: 1.2rem;
 }
@@ -41,7 +44,59 @@ body {
 }
 
 
+/*SOBRE MI*/
+.sobre-mi{
+    background-color: #EAF2FD;
+}
 
+.sobre-mi__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*SECCION HABILIDADES*/
+
+.habilidades__elemento{
+    display: flex;
+    height: 7.3rem;
+    width: 9.7rem;
+    background-color: #ffffff;
+}
+
+
+
+
+/*HOBBIES*/
+
+.aficiones__elemento{
+    display: flex;
+    height: 7.3rem;
+    width: 9.7rem;
+    background-color: #ffffff;
+}
+
+.habilidades__elemento img{
+    width: 1.5rem;
+    height: 2rem;
+}
+
+
+/*FORMACION ACADEMICA*/
+
+.rectangle{
+    background-color: #EAF2FD;
+}
+
+.formacion__titulo{
+    font-size: 2rem;
+}
+
+.formacion__lista img{
+    height: 100px;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+}
 
 
 
@@ -57,10 +112,28 @@ body {
         font-size: 1.5rem;
     }
 
+    .habilidades__elemento{
+        display: flex;
+        height: 7.3rem;
+        width: 14rem;
+        background-color: #ffffff;
+    }
+
+    .aficiones__elemento{
+        display: flex;
+        height: 7.3rem;
+        width: 14rem;
+        background-color: #ffffff;
+    }
+
     .redes a{
         
         font-size: 1.5rem;
     }
+
+    /*FORMACION ACADEMICA*/
+    
+
 
 }
 
@@ -78,6 +151,20 @@ body {
 
     .presentacion__subtitulo{
         font-size: 1.5rem;
+    }
+
+    .habilidades__elemento{
+        display: flex;
+        height: 9rem;
+        width: 9rem;
+        background-color: #ffffff;
+    }
+
+    .aficiones__elemento{
+        display: flex;
+        height: 9rem;
+        width: 9rem;
+        background-color: #ffffff;
     }
 
     
