@@ -98,6 +98,33 @@ body {
     margin: 0px;
 }
 
+/*PROYECTOS*/
+
+.proyecto__imagen{
+    width: 100%;
+}
+
+.proyectos__titulo{
+    font-size: 2rem;
+}
+
+.proyectos__nombre{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.proyectos__descripcion{
+    text-align: center;
+}
+
+.proyecto__boton--repo{
+    background-color: #3585f5;
+    color: #000000;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 100px;
+}
+
 
 
 @media (min-width: 767px) {
@@ -166,6 +193,9 @@ body {
         width: 9rem;
         background-color: #ffffff;
     }
+
+
+    
 
     
 }

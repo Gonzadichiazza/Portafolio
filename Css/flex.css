@@ -172,6 +172,29 @@
 }
 
 
+/* EXPERIENCIA PROFESIONAL*/
+.proyectos{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.proyectos__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.proyectos__nombre{
+    margin-top: 30px;
+}
+
+
 
 
 
@@ -218,6 +241,67 @@
     align-items: center;
     justify-content: center;
 }
+
+/*EXPERIENCIA PROFESIONAL*/
+
+.proyectos__contenedor {
+    position: relative; /* Contenedor padre debe ser relativo para el posicionamiento absoluto de los hijos */
+
+}
+
+.proyecto__imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que se vea bien */
+}
+
+/* Inicialmente, ocultamos los elementos dentro de la imagen */
+.proyectos__contenedor h3,
+.proyectos__contenedor p,
+.proyectos__contenedor a {
+    position: absolute; /* Para posicionarlos dentro de la imagen */
+    top: 50%; /* Posición inicial fuera de la vista */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0; /* Ocultos inicialmente */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    color: rgb(0, 0, 0); /* Para que el texto sea visible sobre la imagen */
+}
+
+.proyectos__contenedor a {
+    margin-top: 10px;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Al hacer hover sobre la imagen, mostramos los elementos */
+.proyectos__contenedor:hover h3,
+.proyectos__contenedor:hover p,
+.proyectos__contenedor:hover a {
+    opacity: 1; /* Los hacemos visibles */
+    transform: translate(-50%, -40%); /* Mover hacia arriba para centrar */
+    
+}
+
+/* Para hacer que los elementos aparezcan dentro de la imagen */
+.proyectos__contenedor:hover h3 {
+    top: 40%; /* Ajustar según tu diseño */
+}
+
+.proyectos__contenedor:hover p {
+    top: 60%;
+}
+
+.proyectos__contenedor:hover a {
+    top: 80%;
+}
+
+
+
 
 
 }
