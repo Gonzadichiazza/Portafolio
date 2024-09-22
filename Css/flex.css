@@ -174,7 +174,7 @@
 
 /* EXPERIENCIA PROFESIONAL*/
 .proyectos{
-    padding: 100px 0;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,6 +193,38 @@
 .proyectos__nombre{
     margin-top: 30px;
 }
+
+/*CONTACTO*/
+
+.contacto__div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto__titulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contacto__imagen{
+    display: none;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -302,6 +334,36 @@
 
 
 
+/*CONTACTO*/
+
+.contacto__imagen{
+    display: block;
+}
+.contacto{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contacto__div{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacto__titulo{
+    margin: 0;
+}
 
 
 }

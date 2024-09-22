@@ -65,16 +65,16 @@
         </p>
         <ul class="redes">
           <li class="redes__img">
-            <a href="https://github.com/Gonzadichiazza">Github <img src="assets/arrow.png" alt="Flecha" /></a>
+            <a href="https://github.com/Gonzadichiazza" target="_blank">Github <img src="assets/arrow.png" alt="Flecha" /></a>
           </li>
           <li class="redes__img">
-            <a href="https://www.linkedin.com/in/gonzalo-dichiazza-backend-developer/">Linkedin <img src="assets/arrow.png" alt="Flecha" /></a>
+            <a href="https://www.linkedin.com/in/gonzalo-dichiazza-backend-developer/" target="_blank">Linkedin <img src="assets/arrow.png" alt="Flecha" /></a>
           </li>
           <li class="redes__img">
-            <a href="">Instagram <img src="assets/arrow.png" alt="Flecha" /></a>
+            <a href="https://www.instagram.com/gonzalodichiazza/" target="_blank">Instagram <img src="assets/arrow.png" alt="Flecha" /></a>
           </li>
           <li class="redes__img">
-            <a href="">CV <img src="assets/arrow.png" alt="Flecha" /></a>
+            <a href="https://www.canva.com/design/DAFnuSZUmSc/wFd91madnmZi_A_Z-B397A/view?utm_content=DAFnuSZUmSc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">CV <img src="assets/arrow.png" alt="Flecha" /></a>
           </li>
         </ul>
       </div>
@@ -246,22 +246,33 @@
     </section>
 
     <!-- Sección de Contacto -->
-    <section class="contacto" id="contacto">
-      <h2 class="contacto__titulo">Contacto</h2>
-      <form class="contacto__formulario">
-        <input class="contacto__campo" type="text" placeholder="Nombre" />
-        <input
-          class="contacto__campo"
-          type="email"
-          placeholder="Correo Electrónico"
-        />
-        <textarea
-          class="contacto__campo contacto__campo--textarea"
-          placeholder="Mensaje"
-        ></textarea>
-        <button class="contacto__boton" type="submit">Enviar</button>
-      </form>
-    </section>
+    <div class="rectangle">
+      <section class="contacto contenedor" id="contacto">
+        <img src="assets/contact_image.png" alt="" class="contacto__imagen">
+        <div class="contacto__div">
+          <h2 class="contacto__titulo">Contacto</h2>
+          <p class="contacto__descripcion">¿Querés contactarme? Complete el siguiente formulario y me pondre en contacto con usted lo mas pronto posible</p>
+          <form class="contacto__formulario">
+            <input class="contacto__campo" type="text" placeholder="Nombre" />
+            <input
+              class="contacto__campo"
+              type="email"
+              placeholder="Correo Electrónico"
+            />
+            <textarea
+              class="contacto__campo contacto__campo--textarea"
+              placeholder="Mensaje"
+            ></textarea>
+            <button class="contacto__boton" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+        <h2 class="footer__creador">Desarrollado por Gonzalo Dichiazza</h2>
+        <p class="footer__ano">2024</p>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>
